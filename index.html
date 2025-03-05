@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorav Soni - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    
+</head>
+<body>
+
+    <!-- Animated Background Bubbles -->
+    <div class="bubbles-container"></div>
+
+    <div class="bubbles">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Gorav Soni</div>
+        <ul>
+            <li><a href="#" id="Home-btn">Home ▼</a></li>
+            <li><a href="#about">About ▼</a></li>
+            <li class="dropdown">
+                <a href="#" id="skills-btn">Skills ▼</a>
+                <ul class="dropdown-menu" id="skillsList">
+                    <li>HTML & CSS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsive Web Design</li>
+                    <li>SEO Optimization</li>
+                    <li>Animations & Effects</li>
+                    <li>PHP & jQuery</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#"id="contact-btn">Contact ▼</a>
+            <li>
+                <a href="#" class="btn" onclick="forceDownload()">Download CV</a>
+
+            </li>
+        </ul>
+    </nav>
+    
+    
+    
+    <!-- Hero Section -->
+    <header id="home">
+        <div class="content">
+            <h1>Hello, I'm <span class="highlight">Gorav Soni</span></h1>
+            <h2>And I'm a <span id="typing-text"></span></h2>
+            <br>
+          
+<p><h4>(Frontend Developer Portfolio Section)</h4>
+    Hey there! 👋 I'm Gorav Soni, a passionate Frontend Developer
+    <br>
+     who loves creating visually stunning and highly interactive web experiences.
+    
+    I specialize in building modern, responsive, and user-friendly websites with cutting-edge animations and seamless functionality. Whether it's a sleek business site or a dynamic web application,
+    I ensure every project is pixel-perfect and optimized for performance.
+    💡 Why Work With Me?
+    <hr>
+<br>
+    ✅ Creative & Unique Designs – I craft UI/UX that stands out.
+    <br>
+    ✅ Fully Responsive Websites – Works perfectly on all devices.
+    <br>
+    ✅ Smooth Animations & Effects – Engaging user experience.
+    <br>
+    ✅ SEO-Optimized Code – Helps rank better in search engines.
+    <br>
+    ✅ Fast & Secure Development – Optimized performance.
+    
+    
+    
+    </p>
+   
+
+            <div class="buttons">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn" id="contact-btn">Contact Me</a>
+                <!-- Contact Form (Initially Hidden) -->
+<div id="contact-form-container" class="contact-form hidden">
+    <div class="form-box">
+        <form action="https://formsubmit.co/gk1565558@gmail.com" method="POST">
+
+        <h2>Contact <span class="highlight">Me</span></h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required id="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel"name="phone" required id="phone" placeholder="Enter your phone number" required>
+
+            <label for="message">Message:</label>
+            <textarea name="Message" required id="message"  placeholder="Write your message" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+        </form>
+        <span class="close-btn">&times;</span> <!-- Close Button -->
+    </div>
+</div>
+
+            
+            </div>
+        </div>
+        <div class="image">
+            <img src="soni pictue" alt="Gorav Soni">
+        </div>
+        <!-- Social Media Links Section -->
+
+    </header>
+    <div class="social-links">
+        <a href="https://Linkedin.com/in/gorav-kumar-a50424293" target="_blank" class="social-icon linkedin">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://GitHub.com/goravkumar5657" target="_blank" class="social-icon github">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/gorav_kumar5657" target="_blank" class="social-icon instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    
+    <section id="projects">
+        <h2>MY PROJECTS</h2>
+        <h2>1️⃣ E-Commerce Website</h2>
+        <div class="project-container">
+            <img src="e commerce website.webp"Project 1" width="500px">
+            <div class="project-info">
+            <h3>📌 Project Name:Aditi-Online Shopping platform
+                🛠 Technologies Used: HTML, CSS, JavaScript,</h3>
+             <p>A fully responsive e-commerce website with product listings, shopping cart, payment gateway integration, and user authentication.</p>
+             </div>
+            <span> "Amazing work! The website runs smoothly, and my customers love it!"
+
+                ⭐⭐⭐⭐⭐</span>
+        </div>
+          <h2>4️⃣ Restaurant Website</h2>
+        <div class="project-container">
+            <img src="Restaurantly-1200x736-1.png" alt="Project 2" width="500px"> 
+            <div class="project-info">
+                   <h3>📌 Project Name: Restaurantly - Food Ordering System
+                🛠 Technologies Used: HTML, CSS, JavaScript,
+            </h3>
+            <p>A fully responsive restaurant website with an online menu, table booking, and food ordering system.
+                ⭐ Client Review: "Our online orders have doubled since launching this site!"
+                
+                </p>
+                </div>
+            <span>Client Review: ⭐⭐⭐⭐☆</span>
+            <h2>5️⃣ Gym & Fitness Website</h2>
+            <div class="project-container">
+                <img src="gym-1.jpg" alt="Project 2" width="500px"> 
+                <div class="project-info">
+                <h3>📌 Project Name: Fitlife "GYM"
+                    🛠 Technologies Used: HTML, CSS, JavaScript, bootstrap
+                </h3>
+                <p>A modern fitness website with membership plans, trainer profiles, and a booking system.
+                    ⭐ Client Review: "The website looks stunning! My clients find it very easy to use."
+                </div>
+                    
+                    
+                    </p>
+                <span>Client Review: ⭐⭐⭐⭐☆</span>
+        </div>
+        <h2>6️⃣ Hospital Management System</h2>
+        <div class="project-container">
+            <img src="MedicalCenter-1.jpg" alt="Hospital Management System" width="500px">
+            <div class="project-info">
+                <h3>📌 Project Name: Medical senter 🛠 Technologies: HTML, CSS, JavaScript,</h3>
+                <p> A complete hospital management system with patient records, doctor appointments, and billing.</p>
+                ⭐ Client Review: "This system streamlined our hospital operations!" 
+                <br>
+                <span>Client Review:⭐⭐⭐⭐⭐ </span>
+            </div>
+        </div>
+        <h2>7️⃣ Car Rental Website</h2>
+        <div class="project-container">
+            <img src="Etalon-car-rental-wordpress-theme.webp" alt="Car Rental Website" width="500px">
+            <div class="project-info">
+                <h3>📌 Project Name: Etalon-car-rental 🛠 Technologies: HTML, CSS, JavaScript, </h3>
+                <p> A car rental booking system with vehicle listings, booking calendar, and payment integration.</p>
+                ⭐ Client Review: "Super smooth car rental experience!"
+                <br>
+                <span>Client Review:⭐⭐⭐⭐⭐ </span>
+            </div>
+        </div>
+        <h2>8️⃣ Online Course Platform</h2>
+        <div class="project-container">
+            <img src="Courses-1-1200x736.png" alt="Online Course Website" width="500px">
+            <div class="project-info">
+                <h3>📌 Project Name: Courses 🛠 Technologies: HTML, CSS, JavaScript,</h3>
+                <p> A modern e-learning platform with video courses, quizzes, and student progress tracking.</p>
+                ⭐ Client Review: "Best platform for online education!" 
+                <br>
+                <span>Client Review:⭐⭐⭐⭐⭐ </span>
+            </div>
+        </div>
+        <h2>9️⃣ Personal Finance Tracker</h2>
+        <div class="project-container">
+            <img src="personal finace Tracker.jpg" alt="Finance Tracker" width="500px">
+            <div class="project-info">
+                <h3>📌 Project Name: Personal Finance Tracker  🛠 Technologies: HTML, CSS, JavaScript,</h3>
+                <p> A personal finance tracking app to manage income, expenses, and generate monthly reports.</p>
+                ⭐ Client Review: "Helped me save money and track expenses!"
+                <br>
+                <span>Client Review:⭐⭐⭐⭐⭐ </span>
+            </div>
+        </div>
+                                
+    </section>
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <h2>About <span class="highlight">Me</span></h2>
+            <p class="intro">
+                Hi, I'm <span class="highlight">Gorav Soni</span>, a passionate <span class="highlight">Frontend Developer</span> with expertise in **Advanced CSS, JavaScript, HTML**. I love creating unique, interactive, and modern websites!
+            </p>
+    
+            <div class="skills">
+                <button class="skill-btn">HTML</button>
+                <button class="skill-btn">CSS</button>
+                <button class="skill-btn">JavaScript</button>
+                <button class="skill-btn">SEO Optimization</button>
+                <button class="skill-btn">Responsive Design</button>
+                <button class="skill-btn">Web Animation</button>
+            </div>
+    
+            <p class="experience">
+                🚀 I've built multiple projects for clients, including **animated portfolios, e-commerce sites, and interactive UI components**.
+            </p>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <a  href="#about">About</a>
+       
+        
+        <div class="about-container">
+            <h2>About <span class="highlight">Me</span></h2>
+            <p class="intro">
+                Hi, I'm <span class="highlight">Gorav Soni</span>, a passionate <span class="highlight">Frontend Developer</span> with expertise in **Advanced CSS, JavaScript, HTML**. I love creating unique, interactive, and modern websites!
+            </p>
+    
+            <div class="skills">
+                <button class="skill-btn">HTML</button>
+                <button class="skill-btn">CSS</button>
+                <button class="skill-btn">JavaScript</button>
+                <button class="skill-btn">SEO Optimization</button>
+                <button class="skill-btn">Responsive Design</button>
+                <button class="skill-btn">Web Animation</button>
+            </div>
+    
+            <p class="experience">
+                🚀 I've built multiple projects for clients, including **animated portfolios, e-commerce sites, and interactive UI components**.
+            </p>
+        </div>
+  
+
+    </section>
+    <footer>
+        <div class="footer-container">
+            <h2>Gorav Soni</h2>
+            <p>Frontend Developer | Creative Coder</p>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+            <p class="copyright">© 2025 Gorav Soni | All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
